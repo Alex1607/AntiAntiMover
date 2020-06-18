@@ -23,8 +23,6 @@ registerPlugin({
     }
   ]
 }, (sinusbot, config) => {
-  const backend = require("backend");
-  const engine = require("engine");
   const event = require("event");
   var cache = {};
   var removeGroup = [];
